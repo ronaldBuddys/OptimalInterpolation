@@ -1,3 +1,9 @@
+This work was based off of previous work by William Gregory (see original README below).
+
+Using GPflow to perform GPR on sea ice radar freeboard can be done using the SeaIceFreeboard class.
+
+See jupyter notebooks in 'notebooks' directory for examples of how to run on Google Colab.
+
 # Optimal Interpolation
 
 This is a working repository for using Gaussian processes to combine and interpolate satellite altimetry data sets of radar freeboard. Here we explore the use of *full* GPs to combine radar freeboards from CryoSat-2, Sentinel-3A and Sentinel-3B, in order produce daily radar freeboards. These results can be seen in the the following article [Gregory et al., 2021](https://tc.copernicus.org/articles/15/2857/2021/tc-15-2857-2021.pdf). The accompanying code for these results is contained within the `2021_paper_production` directory, and subseqeuently the corresponding quicklook data are available in the `Quicklook Data` directory.
